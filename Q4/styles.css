@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h2 span {
+    font-weight: bold;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .controls label {
+    font-size: 16px;
+  }
+  
+  .controls input {
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th i {
+    margin-left: 5px;
+  }
+  
+  th, td i {
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  th {
+    background-color: #f1f1f1;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .pagination p {
+    font-size: 14px;
+  }
+  
+  .pagination div {
+    display: flex;
+  }
+  
+  .pagination a {
+    padding: 8px 12px;
+    margin: 0 4px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .pagination a.active {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  
+  .pagination a:hover {
+    background-color: #ddd;
+  }
+  
